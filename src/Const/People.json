@@ -1,0 +1,32 @@
+[
+    {
+        "name": "KHERLEN",
+        "title": "CEO",
+        "description": "Biomedical Engineer",
+        "image": "Kherlen.png"
+    },
+    {
+        "name": "TERGEL",
+        "title": "COO",
+        "description": "3d printing specialist",
+        "image": "Tergel.png"
+    },
+    {
+        "name": "TURBOLD",
+        "title": "DESIGNER",
+        "description": "Industrial designer",
+        "image": "Turbold.png"
+    },
+    {
+        "name": "TEMUULEN",
+        "title": "CONSULTANT",
+        "description": "Physical therapist",
+        "image": "Temuulen.png"
+    },
+    {
+        "name": "DR. KANA OHASHI",
+        "title": "MEDICAL CONSULTANT",
+        "description": "Occupational therapist, Sendai Rehabilitation College senior lecturer with 10+ years of experience",
+        "image": "Kana.png"
+    }
+]

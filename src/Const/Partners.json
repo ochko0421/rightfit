@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Mongolian- Japanese Hospital",
+        "description": "Hospital",
+        "image": "MongolYpon.png",
+        "width": 300,
+        "height": 100
+    },
+    {
+        "title": "Rehabilitation and Development Center for Children with Disabilities",
+        "description": "Orthotic factory",
+        "image": "Children's rehabilitation center.png",
+        "width": 108,
+        "height": 100
+    },
+    {
+        "title": "General Department of Development of Persons with Disabilities",
+        "description": "Orthotic factory",
+        "image": "Adult disability center.png",
+        "width": 300,
+        "height": 100
+    },
+    {
+        "title": "Sasaki Orthotics and Prosthetics Factory, Sendai",
+        "description": "Orthotic factory",
+        "image": "Sasaki.png",
+        "width": 79,
+        "height": 100
+    }
+]
