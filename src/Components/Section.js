@@ -6,8 +6,8 @@ export default function Section() {
 
 
     return (
-        <div>
-            <h1 className='title'>Our team</h1>
+        <div className='people-container'>
+            <h1 id="team" className='title'>Our team</h1>
             <section className="people-section">
 
                 {People.map((person, index) => (

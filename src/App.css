@@ -1,5 +1,5 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  .App {
+  /* .App {
     padding-left: 2rem;
     font-family: 'Neue Alte Grotesk', sans-serif;
   }
@@ -25,7 +25,7 @@
     height: 16rem;
     display: flex;
     gap: 3rem;
-    background-color: #93FFEA;
+    background-color: #000000;
     list-style: none;
     text-decoration: none;
     padding-top: 2.5rem;
@@ -40,7 +40,7 @@
   .menu li a {
     font-size: 1.5rem;
     list-style: none;
-    color: black;
+    color: #93FFEA;
     text-decoration: none;
     text-align: right;
   }
@@ -54,6 +54,8 @@
 
   .section {
     display: flex;
+    background-color: #93FFEA;
+    color: black;
   }
 
   .title {
@@ -74,6 +76,8 @@
 
   .achievement {
     margin-top: 200px;
+    background-color: #93FFEA;
+    color: black;
   }
 
   .achievement-text {
@@ -98,9 +102,7 @@
 
   .people-section>div {
     flex: 1 1 calc(25% - 10px);
-    /* Adjust width to fit 4 items in a row with some gap */
     margin: 5px;
-    /* Add spacing between items */
   }
 
   .people-section>div:nth-child(4) {
@@ -127,7 +129,6 @@
     width: 100%;
     padding: 0.56rem;
     word-wrap: break-word;
-    /* Wraps long words */
 
   }
 
@@ -185,8 +186,7 @@
 
   .main-div {
     width: 50%;
-    /* position: absolute;
-    top: 185px; */
+
   }
 
   .main-div p {
@@ -202,9 +202,13 @@
     background-position: center;
     height: 100%;
     width: 50%;
-    background-color: #93FFEA;
-    /* position: absolute;
-      right: 0px; */
+    background-color: #000000;
+ 
+  }
+
+  .background-image img {
+    width: 355px;
+    height: 433px;
   }
 
   .partner-title .partner-decription {
@@ -240,7 +244,7 @@
 
   .partner-section>div {
     flex: 1 1 calc(40% - 10px);
-    /* Adjust width to fit 4 items in a row with some gap */
+  
     margin: 5px;
   }
 
@@ -277,11 +281,18 @@
     width: 100%;
     height: 532px;
   }
+
+  .partner-container {
+
+
+    width: 100%;
+    color: #93FFEA;
+    background-color: black;
+  } */
 }
 
 @media (max-width: 768px) {
   .App {
-    padding-left: 2rem;
     font-family: 'Neue Alte Grotesk', sans-serif;
   }
 
@@ -303,24 +314,22 @@
 
   .menu {
     width: 50%;
-    height: 73px;
+
     display: flex;
-    gap: 1rem;
-    background-color: #93FFEA;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #000000;
     list-style: none;
     text-decoration: none;
-    padding-top: 40px;
-    justify-content: flex-end;
-  }
+    padding-top: 10px;
+    align-items: flex-end;
 
-  .menu-list {
-    margin-right: 2rem;
   }
 
   .menu li a {
-    font-size: 12px;
+    font-size: 10px;
     list-style: none;
-    color: black;
+    color: #93FFEA;
     text-decoration: none;
     text-align: right;
   }
@@ -329,6 +338,10 @@
 
   .section {
     display: flex;
+    background-color: #93FFEA;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 30px;
   }
 
   .title {
@@ -348,7 +361,11 @@
   }
 
   .achievement {
-    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #93FFEA;
+    color: black;
+    padding-left: 20px;
   }
 
   .achievement-text {
@@ -376,14 +393,14 @@
   }
 
   .people-section>div {
-    flex: 0 1 calc(33% - 10px);
+    flex: 0 0 calc(50% - 10px);
     /* Adjust width to fit 4 items in a row with some gap */
     margin: 5px;
     /* Add spacing between items */
   }
 
   .people-section>div:nth-child(5) {
-    flex: 0 0 calc(33% - 10px);
+    flex: 0 0 calc(50% - 10px);
     order: 1;
     width: 100%;
     margin: 0;
@@ -435,7 +452,7 @@
     font-weight: 300;
     font-size: 16px;
     height: 35px;
-    width: 106px;
+    width: 110px;
   }
 
   .person-desc {
@@ -446,8 +463,8 @@
   }
 
   .people img {
-    width: 83px;
-    height: 83px;
+    width: 160px;
+    height: 160px;
   }
 
   main {
@@ -474,9 +491,14 @@
     background-position: center;
     height: 100%;
     width: 50%;
-    background-color: #93FFEA;
+    background-color: #000000;
     /* position: absolute;
       right: 0px; */
+  }
+
+  .background-image img {
+    width: 155px;
+    height: 233px;
   }
 
   .partner-title .partner-decription {
@@ -484,6 +506,7 @@
   }
 
   .partner {
+    margin: 0 auto;
     width: 320px;
     height: 200px;
   }
@@ -491,7 +514,7 @@
   .partner img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+
     height: 50%;
   }
 
@@ -503,20 +526,13 @@
     text-align: center;
   }
 
-  .partner-section {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-wrap: wrap;
-  }
+  /* .partner-container {
+    padding-left: 20px;
+  } */
 
-  .partner-section>div {
-    flex: 1 1 calc(40% - 10px);
-    /* Adjust width to fit 4 items in a row with some gap */
-    margin: 5px;
-  }
 
   .footer-container {
+    padding-left: 20px;
     display: flex;
     flex-direction: row;
     gap: 33px;
@@ -544,9 +560,18 @@
     line-height: 110.00000000000001%;
     letter-spacing: 0%;
   }
+
+  .partner-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 100%;
+    color: #93FFEA;
+    background-color: black;
+  }
 }
 
-@media(min-width:1024px) {
+@media(min-width:768px) {
   .App {
     padding-left: 2rem;
     font-family: 'Neue Alte Grotesk', sans-serif;
@@ -573,7 +598,7 @@
     height: 219px;
     display: flex;
     gap: 48px;
-    background-color: #93FFEA;
+    background-color: #000000;
     list-style: none;
     text-decoration: none;
     padding-top: 40px;
@@ -588,7 +613,7 @@
   .menu li a {
     font-size: 24px;
     list-style: none;
-    color: black;
+    color: #93FFEA;
     text-decoration: none;
     text-align: right;
   }
@@ -602,6 +627,9 @@
 
   .section {
     display: flex;
+    background-color: #93FFEA;
+    color: black;
+    padding-bottom: 100px;
   }
 
   .title {
@@ -609,6 +637,15 @@
     font-weight: 400;
     justify-self: start;
     text-align: left;
+  }
+
+  .partner-container {
+    width: 1442px;
+    height: 518px;
+    width: 100%;
+    color: #93FFEA;
+    background-color: black;
+    padding-top: 100px;
   }
 
   .text {
@@ -621,7 +658,11 @@
   }
 
   .achievement {
-    margin-top: 300px;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #93FFEA;
+    color: black;
   }
 
   .achievement-text {
@@ -646,7 +687,7 @@
   }
 
   .people-section>div {
-    flex: 1 1 calc(25% - 10px);
+    flex: 0 0 calc(25% - 10px);
     /* Adjust width to fit 4 items in a row with some gap */
     margin: 5px;
     /* Add spacing between items */
@@ -744,9 +785,16 @@
     background-position: center;
     height: 100%;
     width: 50%;
-    background-color: #93FFEA;
+    background-color: #000000;
     /* position: absolute;
       right: 0px; */
+  }
+
+  .background-image img {
+    width: 584.7999877929688px;
+    height: 731px;
+
+
   }
 
   .partner-title .partner-decription {
@@ -754,7 +802,7 @@
   }
 
   .partner {
-    width: 320px;
+    /* width: 320px; */
     height: 202px;
   }
 
@@ -808,6 +856,14 @@
 
   .video {
     width: 100%;
-    height: 800px;
+
+  }
+
+  .people-container {
+    margin-bottom: 100px;
+  }
+
+  .padding-50 {
+    padding-left: 50px;
   }
 }

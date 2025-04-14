@@ -8,9 +8,9 @@ export default function Header() {
                 </a>
             </div>
             <div className="menu">
-                <li><a href="/about" aria-label="About Us">Partners</a></li>
-                <li><a href="/services" aria-label="Our Services">About</a></li>
-                <li className="menu-list"><a href="/contact" aria-label="Contact Us">Contact</a></li>
+                <li><a href="#partner" aria-label="About Us">Partners</a></li>
+                <li><a href="#team" aria-label="Our Services">About</a></li>
+                <li><a href="#footer" aria-label="Contact Us">Contact</a></li>
             </div>
         </nav>
 

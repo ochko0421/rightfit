@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer>
+        <footer id='footer'>
             <h2 className="title">Contact Us</h2>
             <div className="footer-container">
                 <div className="footer-address">

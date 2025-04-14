@@ -1,7 +1,7 @@
 export default function Article() {
     return (
-        <article className="section">
-            <div className="section-div">
+        <article className="section ">
+            <div className="section-div padding-50">
                 <h1 className="title">Our vision</h1>
                 <p className="text">
                     A world where everyone, regardless of location or income,
@@ -10,7 +10,7 @@ export default function Article() {
                     clinician-led manufacturing powered by intelligent technology.
                 </p>
             </div>
-            <div className="section-div">
+            <div className="section-div padding-50">
                 <h1 className="title">Our mission</h1>
                 <p className="text">
                     To empower clinicians everywhere with intuitive,

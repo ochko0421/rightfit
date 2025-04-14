@@ -11,10 +11,9 @@ export default function Main() {
                 </p>
             </div>
 
-            <div
-                className="background-image"
-
-            ></div>
+            <div className="background-image">
+                <img src="orthotic.png" alt="orthotic" />
+            </div>
 
         </main>
     )

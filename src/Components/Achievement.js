@@ -1,6 +1,6 @@
 export default function Achievement() {
     return (
-        <div className="achievement">
+        <div className="achievement padding-50">
             <div className="title">Our achievements</div>
             <div className="achievement-text">
                 Mongolian Open Innovation and
