@@ -309,7 +309,7 @@
 
   .logo {
     width: 50%;
-    padding-top: 40px;
+    padding-top: 20px;
   }
 
   .menu {
@@ -337,11 +337,14 @@
 
 
   .section {
-    display: flex;
+    padding-top: 15px;
     background-color: #93FFEA;
     color: black;
-    padding-left: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+  .section-text {
+    font-size: 16px;
   }
 
   .title {
@@ -349,6 +352,7 @@
     font-weight: 400;
     justify-self: start;
     text-align: left;
+
   }
 
   .text {
@@ -365,7 +369,6 @@
     padding-bottom: 50px;
     background-color: #93FFEA;
     color: black;
-    padding-left: 20px;
   }
 
   .achievement-text {
@@ -378,13 +381,14 @@
   }
 
   .video {
+    margin-top: 20px;
     width: 100%;
     height: 266px;
   }
 
 
   .section-div {
-    width: 50%;
+    /* width: 50%; */
   }
 
   .people-section {
@@ -395,7 +399,7 @@
   .people-section>div {
     flex: 0 0 calc(50% - 10px);
     /* Adjust width to fit 4 items in a row with some gap */
-    margin: 5px;
+    /* margin: 5px; */
     /* Add spacing between items */
   }
 
@@ -532,7 +536,6 @@
 
 
   .footer-container {
-    padding-left: 20px;
     display: flex;
     flex-direction: row;
     gap: 33px;
@@ -564,16 +567,21 @@
   .partner-container {
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 20px;
-    width: 100%;
+
     color: #93FFEA;
     background-color: black;
   }
+
+  .padding-50 {
+    padding-left: 10px;
+  }
+
+
 }
 
 @media(min-width:768px) {
   .App {
-    padding-left: 2rem;
+
     font-family: 'Neue Alte Grotesk', sans-serif;
   }
 
@@ -640,15 +648,24 @@
   }
 
   .partner-container {
-    width: 1442px;
+
     height: 518px;
-    width: 100%;
+
     color: #93FFEA;
     background-color: black;
     padding-top: 100px;
   }
 
   .text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+
+    text-align: left;
+  }
+
+  .section-text {
     font-weight: 400;
     font-size: 32px;
     line-height: 110.00000000000001%;
@@ -856,7 +873,7 @@
 
   .video {
     width: 100%;
-
+    margin-top: 100px;
   }
 
   .people-container {
@@ -866,4 +883,8 @@
   .padding-50 {
     padding-left: 50px;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

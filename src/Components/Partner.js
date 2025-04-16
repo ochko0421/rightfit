@@ -3,14 +3,14 @@ import Partners from '../Const/Partners.json';
 export default function Partner() {
     return (<div >
         <div className='partner-container padding-50'>
-            <div className='title'>
+            <div className='title '>
                 Let's make high-quality
                 <br /> orthotics accessible to all,<br /> together.
             </div>
 
         </div>
-        <h1 className='title' id='partner'>Our partners</h1>
-        <section className="partner-section" >
+        <h1 className='title padding-50' id='partner'>Our partners</h1>
+        <section className="partner-section padding-50" >
 
             {Partners.map((partner, index) => (
 

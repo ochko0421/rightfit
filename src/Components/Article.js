@@ -3,7 +3,7 @@ export default function Article() {
         <article className="section ">
             <div className="section-div padding-50">
                 <h1 className="title">Our vision</h1>
-                <p className="text">
+                <p className="section-text">
                     A world where everyone, regardless of location or income,
                     has timely access to life-enhancing
                     orthotic care through decentralized,
@@ -12,7 +12,7 @@ export default function Article() {
             </div>
             <div className="section-div padding-50">
                 <h1 className="title">Our mission</h1>
-                <p className="text">
+                <p className="section-text">
                     To empower clinicians everywhere with intuitive,
                     AI-driven tools that simplify the design and
                     production of custom orthotics—making high-quality,

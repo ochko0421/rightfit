@@ -3,7 +3,7 @@ export default function Main() {
         <main>
             <div className="main-div">
 
-                <p >
+                <p className="padding-50">
                     Deliver
                     personalized orthotics
                     <br /> faster with AI assisted tools
