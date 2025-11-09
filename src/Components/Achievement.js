@@ -13,6 +13,8 @@ export default function Achievement() {
                     North and Central Asia
                     <br />
                     EBRD Star Venture
+                    <br />
+                    2025 MIT Solve Health Innovation Award  - <span style={{ fontWeight: 'bold' }}>WINNER</span>
                 </div>
             </div>
         </div>
