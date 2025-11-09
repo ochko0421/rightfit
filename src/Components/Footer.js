@@ -14,7 +14,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-links padding-50">
 
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">email: hello@rightfit.care</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">email: info@rightfit.care</a>
                     <a href="https://instagram.com/rightfit.care" target="_blank" rel="noopener noreferrer">instagram.com/rightfit.care</a>
 
                     <a href="https://linkedin.com/rightfit.care" target="_blank" rel="noopener noreferrer">linkedin.com/rightfit.care</a>
